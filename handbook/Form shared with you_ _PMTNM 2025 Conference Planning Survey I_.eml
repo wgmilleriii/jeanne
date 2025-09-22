@@ -1,0 +1,344 @@
+Delivered-To: wgmilleriii@gmail.com
+Received: by 2002:a05:6850:28d6:b0:630:433b:2504 with SMTP id y22csp507184nnk;
+        Thu, 23 Jan 2025 15:13:55 -0800 (PST)
+X-Received: by 2002:a05:6602:418b:b0:84a:51e2:9fa5 with SMTP id ca18e2360f4ac-8520bd7b548mr397831939f.3.1737674035212;
+        Thu, 23 Jan 2025 15:13:55 -0800 (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1737674035; cv=none;
+        d=google.com; s=arc-20240605;
+        b=D4i7ouorSqXIh9DDTk6dFU9sDAS6uNpbNaEPUy6vlPn7UF9b1x4vqOLEutVqTol3oR
+         hRbzv3UhYxEqlys0FSsx+2rWOvzGFzydvSEx0BR7HG7SgCaknKucF/xCBDniJ1PxUMkE
+         9UPB1tbzNb8VOO9IQnxIVLYDUzMmxbVvzJ7FjYPaQUl9vqce/S00gYsUTyJD4SQfWzFF
+         HuSe76uorDLTJoTbUkyH4Oh4roxvUkn/UCIOXYSxdAFEkEZgSFyYvufMsy+u/89VzDGI
+         KJhgNjcMD16GcjtnoGQ7Oj9OC+8KSKmwe00JZIyJrWhIs2WAUy1u15V8WCy7thK0ys0b
+         KV8w==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20240605;
+        h=to:in-reply-to:references:message-id:date:subject:mime-version:from
+         :content-transfer-encoding:dkim-signature;
+        bh=gR59usIvRlsG60g2hdYaE2O13lLoTfj6Wz4PoHjf8AM=;
+        fh=v11RiEPgzpahtPn3HF8Lrt0TJNUwwPJ6O0cAoQ7JLx4=;
+        b=iRjVhHFVPB9mayMNIXFLUvlzlfXsK3RwnolqOVYyr/VWWZm6YEsNs6u/OKFyT7SCEy
+         ukKkPq/OkKY9aAgKdX5UvIf6otFx/JpDwFtb01eLElz4uWkWleOAz/rL7Qj6hoAERRpC
+         LHaJDKu1qifNmHrbawelEpf57FNUa/KI/KcIiwavDM0R0Fm0AKzpQ8X/47Agd2X13uob
+         R/hvCsRoXMI1FItdZsLmaIxeTxElCeDzysiTaZG+Pg0DR/eWZQeuH9Jnjl5HXd4zJzAj
+         b9zgYLpdr0z1qPeFSZ5SLdByPp+qbIY+fqq8iu8vJPPeHFwObvGpoDhf36u8t+FwIibD
+         FXMA==;
+        dara=google.com
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=ZTffHHRZ;
+       spf=pass (google.com: domain of figaro1226@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=figaro1226@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+Return-Path: <figaro1226@gmail.com>
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])
+        by mx.google.com with SMTPS id ca18e2360f4ac-8521dfbe643sor23140139f.3.2025.01.23.15.13.55
+        for <wgmilleriii@gmail.com>
+        (Google Transport Security);
+        Thu, 23 Jan 2025 15:13:55 -0800 (PST)
+Received-SPF: pass (google.com: domain of figaro1226@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com header.s=20230601 header.b=ZTffHHRZ;
+       spf=pass (google.com: domain of figaro1226@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=figaro1226@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com;
+       dara=pass header.i=@gmail.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20230601; t=1737674034; x=1738278834; dara=google.com;
+        h=to:in-reply-to:references:message-id:date:subject:mime-version:from
+         :content-transfer-encoding:from:to:cc:subject:date:message-id
+         :reply-to;
+        bh=gR59usIvRlsG60g2hdYaE2O13lLoTfj6Wz4PoHjf8AM=;
+        b=ZTffHHRZ3nOLHN9k0ONa7TT5q/5RMsz2OORzOli0Mw+X1FW9+JD1oOw/Y96tJqDQ2v
+         NazKNIkMXxRzJEGsQMUXXEJ+AlagCcBQzxINi5uGio/IotvQVcnaWSE91RVMn976zO3k
+         9tH1aULTVtJAg0ZczDxWdzNLFY8dVyzIVS6kJYKwyPZ843t6EeqOiyQHK1mhyj/G57VB
+         DW72G30+cjMmawTvTBx9rdHCiX+b5prOV5ShHGv4CsJYtoBLKFq/N3PDqdntiQ8UojDR
+         dEW8AdLnAnNBdAxqwuY5ULfQ0eRmNLXsCU0xbbSBKqn56gb20GBdSPb2PcqPFb781NDr
+         mcwg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1737674034; x=1738278834;
+        h=to:in-reply-to:references:message-id:date:subject:mime-version:from
+         :content-transfer-encoding:x-gm-message-state:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=gR59usIvRlsG60g2hdYaE2O13lLoTfj6Wz4PoHjf8AM=;
+        b=LDUOUUTvbqBspZp3SFTM+cNDeQeWjXCeIzguV7e8KlDlWnm4+cFKvM98Nw06CGMtex
+         vUsA0ijE1r8vpOd92m4avcNQF4RmkZj5+IC7DVuxde/CMypcICZU0iU24S7QlzDHd0Gw
+         s7BieW86SiHkFLW3/kc4Jafwth/es64L84OwUnyG7KeoZRbfeUs86RYeBDZywEZElrRJ
+         Evbzd6bjYkuKwlFrMDOIwmIgSUnUlwbQANTM2o7RsF9BvF1HTlLdCBMFH7Zdd5QwDVWa
+         vCcWlglrldV1DenCesSANTmPNzMjkKQh9TvBJF7nSnoJVZuCbN6X0GS+1oDld6mPBhle
+         L21A==
+X-Gm-Message-State: AOJu0Yy80OS37/v0JYteiG9orXVlXREILCWAl5Gb1xyuW0rUm3noxRIz
+	GKUBvQxfGuh1Pdirr5aluAqXmTvZejpASqOahPdA78CqKcoBprcdDwfUOw==
+X-Gm-Gg: ASbGncu4c5kzXi3u+2WTitARO0IM3V8ZLEt+v8/UP4kGKfdUEd06BkhYO3BE3B5ah6v
+	/jcDxWmvnLAy/cuL2AQMs5UKnzoWDFE8qiiEbhroy3zBfXqnsxF1XHgxfRU4GjuuFL9QL94Q0tU
+	K6zPB+0CgldO4FO3o+ESInrcJj7/Vr+h3mRV31ptQaumuVyAC7GCKSSLsKSfjspe3DOSxsC5DGa
+	3X8pkcFhCOmMTNKN1Ml4CQ/azXS6zxlAMDzNtwgDX2LTGcsvsPRybX7k7kN7xKTrkfATsI/tOal
+	5a62HeBokoxKXduMZ0Vf+GBhZ3oiits=
+X-Google-Smtp-Source: AGHT+IGZdLopZo+MQy9h1yTrrmhBe7ajXvjSexhzmE3bVPWQqMOo3IzXh43qZ732qOM7g8Kh+YKAXQ==
+X-Received: by 2002:a05:6602:314f:b0:83a:943d:a280 with SMTP id ca18e2360f4ac-8521e1a927amr87903339f.1.1737674034195;
+        Thu, 23 Jan 2025 15:13:54 -0800 (PST)
+Return-Path: <figaro1226@gmail.com>
+Received: from smtpclient.apple ([2601:8c0:880:84b0:6806:b37c:fc2a:5b0f])
+        by smtp.gmail.com with ESMTPSA id 8926c6da1cb9f-4ec1da317fesm189334173.42.2025.01.23.15.13.53
+        for <wgmilleriii@gmail.com>
+        (version=TLS1_3 cipher=TLS_AES_128_GCM_SHA256 bits=128/128);
+        Thu, 23 Jan 2025 15:13:53 -0800 (PST)
+Content-Type: multipart/alternative; boundary=Apple-Mail-5E354FB2-AD71-4F8F-82AD-A30AACAFCCB6
+Content-Transfer-Encoding: 7bit
+From: Jeanne Grealish <figaro1226@gmail.com>
+Mime-Version: 1.0 (1.0)
+Subject: Re: Form shared with you: "PMTNM 2025 Conference Planning Survey I"
+Date: Thu, 23 Jan 2025 16:13:42 -0700
+Message-Id: <3B0F8128-E3D6-4511-A950-41ED682CA699@gmail.com>
+References: <CAM5j-2njvBx2WTKrxFLPd6PrL4gEnTROA+6fdkO95ZSMPQxvOg@mail.gmail.com>
+In-Reply-To: <CAM5j-2njvBx2WTKrxFLPd6PrL4gEnTROA+6fdkO95ZSMPQxvOg@mail.gmail.com>
+To: Willis Glen Miller III <wgmilleriii@gmail.com>
+X-Mailer: iPhone Mail (22B91)
+
+
+--Apple-Mail-5E354FB2-AD71-4F8F-82AD-A30AACAFCCB6
+Content-Type: text/html;
+	charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta http-equiv=3D"content-type" content=3D"text/html; charset=3D=
+utf-8"></head><body dir=3D"auto">This email makes absolutely no sense.<div><=
+br><div>Who authorized a questionnaire in the first place?</div><div><br></d=
+iv><div>Who is the elected head of PMTNM who assigns tasks? Not me for sure.=
+</div><div>J</div><div><br><div><br></div><div><div dir=3D"ltr">Sent from my=
+ iPhone</div><div dir=3D"ltr"><br><blockquote type=3D"cite">On Jan 23, 2025,=
+ at 14:12, Willis Glen Miller, III &lt;wgmilleriii@gmail.com&gt; wrote:<br><=
+br></blockquote></div><blockquote type=3D"cite"><div dir=3D"ltr">=EF=BB=BF<d=
+iv><div><div dir=3D"ltr" style=3D"font-size:0.8125rem;font-style:normal;font=
+-weight:400;letter-spacing:normal;text-indent:0px;text-transform:none;white-=
+space:normal;word-spacing:1px;text-decoration:none;font-family:arial,helveti=
+ca,sans-serif;background-color:rgba(0,0,0,0);border-color:rgb(34,34,34);colo=
+r:rgb(34,34,34)">Hi Sharon this is the same one but a soft release, in stage=
+s to not the whole membership at once only for the purpose of technician acc=
+essibility. A soft release is to make sure that a group set can at least ent=
+er in data without trouble before distributing to the membership completely.=
+ (Everybody here knows me and I think represents a range of people albeit Al=
+buquerque heavy) &nbsp;Since last Friday I have not changed anything on the s=
+urvey. If nobody has trouble we can release to another group for beta and th=
+en to everybody on the email list we have. Please let me know if that aligns=
+ . Thank you, Chip</div><div dir=3D"ltr" style=3D"font-size:0.8125rem;font-s=
+tyle:normal;font-weight:400;letter-spacing:normal;text-indent:0px;text-trans=
+form:none;white-space:normal;word-spacing:1px;text-decoration:none;font-fami=
+ly:arial,helvetica,sans-serif;background-color:rgba(0,0,0,0);border-color:rg=
+b(34,34,34);color:rgb(34,34,34)"><br></div><div dir=3D"ltr" style=3D"font-si=
+ze:0.8125rem;font-style:normal;font-weight:400;letter-spacing:normal;text-in=
+dent:0px;text-transform:none;white-space:normal;word-spacing:1px;text-decora=
+tion:none;font-family:arial,helvetica,sans-serif;background-color:rgba(0,0,0=
+,0);border-color:rgb(34,34,34);color:rgb(34,34,34)">On Fri, Jan 17, 2025 at 1=
+1:46=E2=80=AFAM&nbsp;<a href=3D"mailto:slkunitz@aol.com" style=3D"font-famil=
+y:arial,helvetica,sans-serif;font-size:0.8125rem;background-color:rgba(0,0,0=
+,0);border-color:rgb(66,133,244);color:rgb(66,133,244)">slkunitz@aol.com</a>=
+&lt;<a href=3D"mailto:slkunitz@aol.com" style=3D"font-family:arial,helvetica=
+,sans-serif;font-size:0.8125rem;background-color:rgba(0,0,0,0);border-color:=
+rgb(66,133,244);color:rgb(66,133,244)">slkunitz@aol.com</a>&gt; wrote:<br></=
+div><blockquote style=3D"font-style:normal;font-weight:400;letter-spacing:no=
+rmal;text-indent:0px;text-transform:none;white-space:normal;word-spacing:1px=
+;text-decoration:none;margin:0px 0px 0px 0.8ex;border-left-width:1px;border-=
+left-style:solid;padding-left:1ex;font-family:arial,helvetica,sans-serif;bac=
+kground-color:rgba(0,0,0,0);border-color:rgb(34,34,34) rgb(34,34,34) rgb(34,=
+34,34) rgb(204,204,204);color:rgb(34,34,34)"><div style=3D"font-family:arial=
+,helvetica,sans-serif;background-color:rgba(0,0,0,0);border-color:rgb(34,34,=
+34);color:rgb(34,34,34)"><div style=3D"font-family:arial;font-size:16px;back=
+ground-color:rgba(0,0,0,0);border-color:rgb(34,34,34);color:rgb(34,34,34)"><=
+div dir=3D"ltr" style=3D"font-family:arial;font-size:1rem;background-color:r=
+gba(0,0,0,0);border-color:rgb(34,34,34);color:rgb(34,34,34)">Hi, Chip,</div>=
+<div dir=3D"ltr" style=3D"font-family:arial;background-color:rgba(0,0,0,0);b=
+order-color:rgb(34,34,34);color:rgb(34,34,34)"><br></div><div dir=3D"ltr" st=
+yle=3D"font-family:arial;font-size:1rem;background-color:rgba(0,0,0,0);borde=
+r-color:rgb(34,34,34);color:rgb(34,34,34)">After a busy week of visiting til=
+e stores, designing remodeling projects, I can focus on PMTNM again.</div><d=
+iv dir=3D"ltr" style=3D"font-family:arial;background-color:rgba(0,0,0,0);bor=
+der-color:rgb(34,34,34);color:rgb(34,34,34)"><br></div><div dir=3D"ltr" styl=
+e=3D"font-family:arial;font-size:1rem;background-color:rgba(0,0,0,0);border-=
+color:rgb(34,34,34);color:rgb(34,34,34)">I looked at your survey for confere=
+nce and that is a great plan.&nbsp; Could you send it out to the membership?=
+&nbsp; I don't have a complete list of emails but need one.&nbsp; If you hav=
+e the list, could you forward to me, please?&nbsp; The&nbsp;<a href=3D"http:=
+//pmtnm.org/" style=3D"font-family:arial;font-size:1rem;background-color:rgb=
+a(0,0,0,0);border-color:rgb(66,133,244);color:rgb(66,133,244)">pmtnm.org</a>=
+&nbsp;website as I see does need review and help, I think... &nbsp;will get t=
+o that next week</div><div dir=3D"ltr" style=3D"font-family:arial;background=
+-color:rgba(0,0,0,0);border-color:rgb(34,34,34);color:rgb(34,34,34)"><br></d=
+iv><div dir=3D"ltr" style=3D"font-family:arial;font-size:1rem;background-col=
+or:rgba(0,0,0,0);border-color:rgb(34,34,34);color:rgb(34,34,34)">Next, I wil=
+l look at the list for chairs and begin contacting members for those positio=
+ns.&nbsp; There does not appear to have been many chairs appointed the past t=
+erms and I need to assess what we need.</div><div dir=3D"ltr" style=3D"font-=
+family:arial;background-color:rgba(0,0,0,0);border-color:rgb(34,34,34);color=
+:rgb(34,34,34)"><br></div><div dir=3D"ltr" style=3D"font-family:arial;font-s=
+ize:1rem;background-color:rgba(0,0,0,0);border-color:rgb(34,34,34);color:rgb=
+(34,34,34)">Let me know your thoughts!</div><div dir=3D"ltr" style=3D"font-f=
+amily:arial;background-color:rgba(0,0,0,0);border-color:rgb(34,34,34);color:=
+rgb(34,34,34)"><br></div><div dir=3D"ltr" style=3D"font-family:arial;font-si=
+ze:1rem;background-color:rgba(0,0,0,0);border-color:rgb(34,34,34);color:rgb(=
+34,34,34)">Sharon</div></div></div></blockquote></div><br></div><div><br><di=
+v class=3D"gmail_quote gmail_quote_container"><div dir=3D"ltr" class=3D"gmai=
+l_attr">On Thu, Jan 23, 2025 at 1:39=E2=80=AFPM <a href=3D"mailto:slkunitz@a=
+ol.com">slkunitz@aol.com</a> &lt;<a href=3D"mailto:slkunitz@aol.com">slkunit=
+z@aol.com</a>&gt; wrote:<br></div><blockquote class=3D"gmail_quote" style=3D=
+"margin:0px 0px 0px 0.8ex;border-left-width:1px;border-left-style:solid;padd=
+ing-left:1ex;border-left-color:rgb(204,204,204)"><div><div style=3D"font-fam=
+ily:arial;font-size:16px"><div style=3D"font-family:arial"></div>
+        <div dir=3D"ltr" style=3D"font-family:arial">What is the source of t=
+his?&nbsp; Have I missed something.&nbsp; Sharon</div><div style=3D"font-fam=
+ily:arial"><br></div>
+       =20
+        </div><div id=3D"m_-5308815122950640975ydp635d2bcayahoo_quoted_86111=
+97872"><div style=3D"font-family:arial;font-size:16px">
+            <div style=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,A=
+rial,sans-serif;font-size:13px;color:rgb(38,40,42)">
+               =20
+                <div style=3D"font-family:&quot;Helvetica Neue&quot;,Helveti=
+ca,Arial,sans-serif">
+                        On Thursday, January 23, 2025 at 11:51:13 AM MST, Wi=
+llis Glen Miller, III (via Google Forms) &lt;<a href=3D"mailto:wgmilleriii@g=
+mail.com" target=3D"_blank" style=3D"font-family:&quot;Helvetica Neue&quot;,=
+Helvetica,Arial,sans-serif">wgmilleriii@gmail.com</a>&gt; wrote:
+                    </div>
+                </div><div style=3D"font-family:&quot;Helvetica Neue&quot;,H=
+elvetica,Arial,sans-serif;font-size:13px;border-left-width:1px;border-left-s=
+tyle:solid;padding-left:8px;margin:0px 0px 0px 8px;border-left-color:rgb(204=
+,204,204);color:rgb(38,40,42)">
+                <div style=3D"font-family:&quot;Helvetica Neue&quot;,Helveti=
+ca,Arial,sans-serif"><br></div><div style=3D"font-family:&quot;Helvetica Neu=
+e&quot;,Helvetica,Arial,sans-serif"><br></div>
+                <div style=3D"font-family:&quot;Helvetica Neue&quot;,Helveti=
+ca,Arial,sans-serif"><div id=3D"m_-5308815122950640975ydp635d2bcayiv64665264=
+72" style=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-ser=
+if"><div style=3D"font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,san=
+s-serif"><table style=3D"border-collapse:collapse;width:100%;text-align:cent=
+er;font-family:&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif;backgro=
+und-color:white"><tbody style=3D"font-family:&quot;Helvetica Neue&quot;,Helv=
+etica,Arial,sans-serif"><tr style=3D"font-family:&quot;Helvetica Neue&quot;,=
+Helvetica,Arial,sans-serif"><td style=3D"padding:24px 0px 16px;font-family:&=
+quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif"><table style=3D"border=
+-collapse:collapse;font-family:Roboto,Arial,Helvetica,sans-serif;width:90%;m=
+argin:auto;max-width:700px;min-width:280px;text-align:left"><tbody style=3D"=
+font-family:Roboto,Arial,Helvetica,sans-serif"><tr style=3D"font-family:Robo=
+to,Arial,Helvetica,sans-serif"><td style=3D"padding:0px;font-family:Roboto,A=
+rial,Helvetica,sans-serif"><table style=3D"width:100%;border-width:1px;borde=
+r-style:solid;border-radius:8px;table-layout:fixed;border-collapse:separate;=
+font-family:Roboto,Arial,Helvetica,sans-serif;border-color:rgb(218,220,224)"=
+><tbody style=3D"font-family:Roboto,Arial,Helvetica,sans-serif"><tr style=3D=
+"font-family:Roboto,Arial,Helvetica,sans-serif"><td style=3D"padding:4.5%;fo=
+nt-family:Roboto,Arial,Helvetica,sans-serif" dir=3D"ltr"><div style=3D"margi=
+n-bottom:32px;font-family:&quot;Google Sans&quot;,Roboto,Arial,Helvetica,san=
+s-serif;font-style:normal;font-size:28px;line-height:36px;color:rgb(60,64,67=
+)">Willis Glen Miller, III shared a form</div><table style=3D"border-collaps=
+e:collapse;font-family:Roboto,Arial,Helvetica,sans-serif;font-size:16px;line=
+-height:24px;letter-spacing:0.1px;table-layout:fixed;width:100%;color:rgb(32=
+,33,36)"><tbody style=3D"font-family:Roboto,Arial,Helvetica,sans-serif"><tr s=
+tyle=3D"font-family:Roboto,Arial,Helvetica,sans-serif"><td style=3D"padding:=
+0px;vertical-align:top;width:50px;font-family:Roboto,Arial,Helvetica,sans-se=
+rif"><div style=3D"font-family:Roboto,Arial,Helvetica,sans-serif"><img style=
+=3D"border-radius: 50%; display: block; font-family: Roboto, Arial, Helvetic=
+a, sans-serif;" width=3D"50" height=3D"50" src=3D"https://lh3.googleusercont=
+ent.com/a/ACg8ocJ8j8n1m2Fdfsf45ZUGxkC4CbEwfzRWQhekJa-9SEHWbpUBetbm=3Ds64" al=
+t=3D"Header profile photo" data-unique-identifier=3D""></div></td><td style=3D=
+"padding:0px 0px 0px 12px;vertical-align:top;font-family:Roboto,Arial,Helvet=
+ica,sans-serif"><div style=3D"padding-top:12px;font-family:Roboto,Arial,Helv=
+etica,sans-serif">Willis Glen Miller, III (<a href=3D"mailto:wgmilleriii@gma=
+il.com" style=3D"text-decoration:none;font-family:Roboto,Arial,Helvetica,san=
+s-serif;color:inherit" rel=3D"noreferrer noopener" target=3D"_blank">wgmille=
+riii@gmail.com</a>) has invited you to <b style=3D"font-family:Roboto,Arial,=
+Helvetica,sans-serif">edit</b> the following form:</div><div style=3D"margin=
+-top:24px;font-family:Roboto,Arial,Helvetica,sans-serif;color:rgb(95,99,104)=
+">Here is the survey. Please let me know if you have any trouble filling it o=
+ut. Would you please let me know if there are misspellings or any formatting=
+ or other problems? This is a soft launch to make sure everything works<br> a=
+nd we will delete test information before proceeding. Thank you! Chip.  plea=
+se do not make changes to questions without discussion but please suggest an=
+ything for this or future data gathering. </div></td></tr></tbody></table><t=
+able style=3D"table-layout:fixed;width:100%;font-family:Roboto,Arial,Helveti=
+ca,sans-serif"><tbody style=3D"font-family:Roboto,Arial,Helvetica,sans-serif=
+"><tr style=3D"min-height:28px;font-family:Roboto,Arial,Helvetica,sans-serif=
+"></tr><tr style=3D"font-family:Roboto,Arial,Helvetica,sans-serif"><td style=
+=3D"padding:0px;font-family:Roboto,Arial,Helvetica,sans-serif"><a href=3D"ht=
+tps://docs.google.com/forms/d/1xOnUDHe0qVjxLN4nlHvK-ITxoufXbuz2KiXYhtHv9_4/e=
+dit?usp=3Dsharing_eil&amp;invite=3DCOfQ4JMF&amp;ts=3D67928f9e" style=3D"disp=
+lay:inline-block;max-width:100%;text-decoration:none;vertical-align:top;bord=
+er-width:1px;border-style:solid;border-radius:16px;font-family:Roboto,Arial,=
+Helvetica,sans-serif;border-color:rgb(218,220,224);color:rgb(60,64,67)" rel=3D=
+"noreferrer noopener" target=3D"_blank"><div style=3D"line-height:18px;paddi=
+ng:6px 12px;font-family:Roboto,Arial,Helvetica,sans-serif"><span style=3D"di=
+splay:inline-block;vertical-align:top;min-width:26px;width:26px;font-family:=
+Roboto,Arial,Helvetica,sans-serif"><img src=3D"https://ssl.gstatic.com/docs/=
+doclist/images/mediatype/icon_2_form_x64.png" width=3D"18" height=3D"18" sty=
+le=3D"vertical-align: top; font-family: Roboto, Arial, Helvetica, sans-serif=
+;" data-unique-identifier=3D""></span><span style=3D"font-style:normal;font-=
+weight:500;font-stretch:normal;font-size:14px;line-height:18px;font-family:&=
+quot;Google Sans&quot;,Roboto,Arial,Helvetica,sans-serif;font-size-adjust:no=
+ne;display:inline;letter-spacing:0.2px">PMTNM 2025 Conference Planning Surve=
+y I</span></div></a></td></tr></tbody></table><table style=3D"border-collaps=
+e:collapse;font-family:Roboto,Arial,Helvetica,sans-serif"><tbody style=3D"fo=
+nt-family:Roboto,Arial,Helvetica,sans-serif"><tr style=3D"min-height:24px;fo=
+nt-family:Roboto,Arial,Helvetica,sans-serif"><td style=3D"font-family:Roboto=
+,Arial,Helvetica,sans-serif"></td></tr></tbody></table><div style=3D"backgro=
+und-image:none;background-size:auto;background-repeat:repeat;border-radius:4=
+px;padding:12px 16px;font-family:Roboto,Arial,Helvetica,sans-serif;backgroun=
+d-color:rgb(254,247,224)"><div style=3D"display:table-cell;vertical-align:mi=
+ddle;font-family:Roboto,Arial,Helvetica,sans-serif"><img src=3D"https://ssl.=
+gstatic.com/docs/documents/share/images/warning_callout_outline_yellow.png" w=
+idth=3D"24px" height=3D"24px" style=3D"margin-left: 7px; margin-right: 19px;=
+ vertical-align: middle; font-family: Roboto, Arial, Helvetica, sans-serif;"=
+ data-unique-identifier=3D""></div><div style=3D"display:table-cell;font-siz=
+e:14px;line-height:20px;vertical-align:middle;font-family:Roboto,Arial,Helve=
+tica,sans-serif;color:rgb(60,64,67)">This email grants access to this item w=
+ithout logging in. Only forward it to people you trust.</div></div><table st=
+yle=3D"border-collapse:collapse;font-family:Roboto,Arial,Helvetica,sans-seri=
+f"><tbody style=3D"font-family:Roboto,Arial,Helvetica,sans-serif"><tr style=3D=
+"min-height:32px;font-family:Roboto,Arial,Helvetica,sans-serif"><td style=3D=
+"font-family:Roboto,Arial,Helvetica,sans-serif"></td></tr></tbody></table><d=
+iv style=3D"font-family:Roboto,Arial,Helvetica,sans-serif"><a href=3D"https:=
+//docs.google.com/forms/d/1xOnUDHe0qVjxLN4nlHvK-ITxoufXbuz2KiXYhtHv9_4/edit?=
+usp=3Dsharing_eip&amp;invite=3DCOfQ4JMF&amp;ts=3D67928f9e" style=3D"padding:=
+0px 24px;font-style:normal;font-weight:500;font-stretch:normal;font-size:14p=
+x;line-height:36px;font-family:&quot;Google Sans&quot;,Roboto,Arial,Helvetic=
+a,sans-serif;font-size-adjust:none;border-width:medium;border-style:none;bor=
+der-radius:18px;display:inline-block;letter-spacing:0.25px;min-height:36px;t=
+ext-align:center;text-decoration:none;background-color:rgb(26,115,232);borde=
+r-color:currentcolor;color:rgb(255,255,255)" rel=3D"noreferrer noopener" tar=
+get=3D"_blank">Open</a></div><table style=3D"border-collapse:collapse;font-f=
+amily:Roboto,Arial,Helvetica,sans-serif"><tbody style=3D"font-family:Roboto,=
+Arial,Helvetica,sans-serif"><tr style=3D"min-height:32px;font-family:Roboto,=
+Arial,Helvetica,sans-serif"><td style=3D"font-family:Roboto,Arial,Helvetica,=
+sans-serif"></td></tr></tbody></table><div style=3D"font-size:12px;font-fami=
+ly:Roboto,Arial,Helvetica,sans-serif;color:rgb(95,99,104)">If you don't want=
+ to receive files from this person, <a href=3D"https://drive.google.com/driv=
+e/blockuser?blockerEmail=3Dslkunitz@aol.com&amp;blockeeEmail=3Dwgmilleriii@g=
+mail.com&amp;usp=3Dsharing_eib" style=3D"text-decoration:none;font-family:Ro=
+boto,Arial,Helvetica,sans-serif;color:rgb(26,115,232)" rel=3D"noreferrer noo=
+pener" target=3D"_blank">block the sender</a> from Drive</div></td></tr></tb=
+ody></table><table style=3D"border-collapse:collapse;width:100%;font-family:=
+Roboto,Arial,Helvetica,sans-serif"><tbody style=3D"font-family:Roboto,Arial,=
+Helvetica,sans-serif"><tr style=3D"font-family:Roboto,Arial,Helvetica,sans-s=
+erif"><td style=3D"padding:24px 4.5%;font-family:Roboto,Arial,Helvetica,sans=
+-serif"><table style=3D"border-collapse:collapse;width:100%;font-family:Robo=
+to,Arial,Helvetica,sans-serif" dir=3D"ltr"><tbody style=3D"font-family:Robot=
+o,Arial,Helvetica,sans-serif"><tr style=3D"font-family:Roboto,Arial,Helvetic=
+a,sans-serif"><td style=3D"padding:0px;font-family:Roboto,Arial,Helvetica,sa=
+ns-serif;width:100%;font-size:12px;line-height:16px;min-height:40px;letter-s=
+pacing:0.3px;color:rgb(95,99,104)">Google LLC, <a href=3D"https://www.google=
+.com/maps/search/1600+Amphitheatre+Parkway,+Mountain+View,+CA+94043,+USA?ent=
+ry=3Dgmail&amp;source=3Dg" style=3D"font-family:Roboto,Arial,Helvetica,sans-=
+serif">1600 Amphitheatre Parkway, Mountain View, CA 94043, USA</a><br> You h=
+ave received this email because <a href=3D"mailto:wgmilleriii@gmail.com" sty=
+le=3D"text-decoration:none;font-family:Roboto,Arial,Helvetica,sans-serif;col=
+or:inherit" rel=3D"noreferrer noopener" target=3D"_blank">wgmilleriii@gmail.=
+com</a> shared a file or folder located in Google Drive with you.</td><td st=
+yle=3D"padding:0px 0px 0px 20px;min-width:96px;font-family:Roboto,Arial,Helv=
+etica,sans-serif"><a href=3D"https://www.google.com/" style=3D"text-decorati=
+on:none;font-family:Roboto,Arial,Helvetica,sans-serif" rel=3D"noreferrer noo=
+pener" target=3D"_blank"><img src=3D"https://www.gstatic.com/images/branding=
+/googlelogo/2x/googlelogo_grey_tm_color_96x40dp.png" width=3D"96" height=3D"=
+40" alt=3D"Google" style=3D"font-size: 16px; font-weight: 500; font-family: R=
+oboto, Arial, Helvetica, sans-serif; color: rgb(95, 99, 104);" data-unique-i=
+dentifier=3D""></a></td></tr></tbody></table></td></tr></tbody></table></td>=
+</tr></tbody></table></td></tr></tbody></table></div></div></div>
+            </div>
+        </div></div></div></blockquote></div></div>
+</div></blockquote></div></div></div></body></html>=
+
+--Apple-Mail-5E354FB2-AD71-4F8F-82AD-A30AACAFCCB6--

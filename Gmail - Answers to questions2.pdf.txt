@@ -1,0 +1,189 @@
+Gmail - Answers to questions2.pdf.txt
+
+
+Willis Glen Miller, III <wgmilleriii@gmail.com>
+Answers to questions
+Willis Glen Miller, III <wgmilleriii@gmail.com> To: Ferrell Roberts <robertsmusic2117@gmail.com>
+Here is 2 of 2.
+Ferrell do you have a copy of the PMTNM handbook? Maybe you could mail it to Jeanne?
+---------- Forwarded message ---------
+From: Willis Glen Miller, III <wgmilleriii@gmail.com>
+Date: Thu, Jan 9, 2025 at 10:30 PM
+Subject: Re: Answers to questions
+To: Jeanne Grealish <figaro1226@gmail.com>
+Cc: Sharon Kunitz <SLKunitz@aol.com>
+Sat, Jan 18, 2025 at 5:15 PM
+Hi Jeanne, maybe you weren't aware that the handbook hasn't been online for (two years)? more? In any case please see
+highlighted updates below (I put it in big font I can't figure out how to highlight). Here also is a screenshot of the last
+mention of the handbook.
+It's a good thing we're getting this cleaned up. Thank you for your help! Please do email me a copy.
+Chip
+---------- Forwarded message ---------
+From: slkunitz@aol.com
+<slkunitz@aol.com>
+Date: Sat, Dec 14, 2024 at 9:20 AM
+Subject: Fw: PMTNM 2025
+To: III Willis Glen Miller <wgmilleriii@gmail.com>
+Chip,
+Had this detailed response re your inquiry. He said he sent this to you and me Nov 25, but I have
+not found it. This should help you in your webmaster duties!!
+Have a busy remainder of the year and then will get to this administration's business!! Have a
+pleasant and holly, jolly holiday!
+Sharon Kunitz
+----- Forwarded Message -----
+From: Lawrence Blind <lblind@nmschoolofmusic.com>
+To: slkunitz@aol.com
+<slkunitz@aol.com>
+Sent: Friday, December 13, 2024 at 11:48:06 AM MST
+Subject: RE: PMTNM 2025
+Hello Sharon:
+If you sent out a mass email to all members recently I did not receive it. If you’ve been emailing
+individuals in eastern NM I can’t say why they would not be replying.
+I would like to be removed from the PMTNM bank accounts, and I’m pretty sure Cheryl Pachak Brooks
+would prefer the same. If you can get Jeanne to figure out what we need to do I would appreciate it,
+and, as you know, she should NOT be the only person left on those accounts.
+As for Chip…I replied to his email sent to me on November 25 concerning the website (see below). You
+were copied on the email. I am still receiving inquiries (all junk mail so far) via the website, so apparently
+he has not changed that setting.
+Best regards,
+Larry
+Hello Chip and Sharon:
+I highly recommend that one of the first things you do is to add at least one other user, such as Sharon and/or
+another board member, to all of the sites below, or at least share the login information and any changes that
+are made in the future. That way there will always be more than one person who will have the login
+information. This was a major problem with the old website.
+The domain name, pmtnm.org, is registered through Go Daddy. This expires on 6-20-25 and I have canceled auto
+renewal because it was using my personal credit card. This past year the renewal amount was $23.17. A new
+payment method will have to be entered before 6-20-25. I was able to change the account name to Chip Miller,
+and added your address, however I could not update the email address or phone number on file as it will require you
+being logged in when this is done. This will likely take some coordination as when I logged in it had to verify that it
+was me by sending a code to my cell number. Currently my username is ltblind and the password
+is dh47*3FesbB#308.
+The website is hosted by Hostinger (Hostinger.com). The current paid subscription does not expire until 9-20-27. A
+four-year term was initially selected because the pricing was very inexpensive, $172.37. When it comes time to renew
+the plan there will be various pricing choices based on the number of years. I have deleted my credit card
+information, which was used to pay the initial subscription (reimbursed by Jeanne). I also changed the account
+information to “Chip Miller” with your address and email (you should receive a confirmation to change the email
+address. The password to log in is: 3Ndf*Rs#cgN290 which is strong, but which you can change once you have
+logged in.
+WordPress is the actual “system” used to edit the website. The address to log in and make changes
+is: www.pmtnm.org/wp-admin. I have updated the password this evening to “PMTNM*Music*2025” …this can be
+changed in the User settings if you wish. I also changed the email address (username) to wgmilleriii@gmail.com and
+you should receive an email to confirm this address.
+The place you will want to start is the Pages heading on the left side. From there you will be able to see the list of all
+of the website pages. When making changes to a page I always selected “Edit with Elementor.
+” This is an add-on
+editing program that “runs” in conjunction with WordPress and makes editing pages easier. Some people, who are
+well versed in WordPress may choose to make edits directly within WordPress.
+The Teacher Directory page, in particular, is very diﬃcult to edit. You have to select the Content heading, and then
+scroll all the way to the bottom to add spaces for content. You need a separate entry line for each of the headings –
+Name, Email, Phone Number, and Teaching Areas. The Name is entered as a Row to create a new row, the other
+elements are entered as Columns. Once this information is entered each individual entry line has to be dragged in
+the master list to the correct alphabetical space – a very tedious process and easy to make mistakes. One misplaced
+item will “push” all other entries out of place so check your work carefully.
+The Teacher Directory has not been updated since some members dropped out this year, and other members joined.
+The other item that was never added to the
+website is the Handbook – primarily because
+the existing complete Handbook is horribly out
+of date. Sharon can provide more information about what happened the last time updates were made, but
+not saved ad therefore lost. The Student Activities section of the Handbook is online as it has undergone edits as
+needed through the years.
+At the top of each page you will see a symbol for viewing the page on a computer, a tablet, and a phone. The website
+is currently only optimized for viewing on a computer. I did not have the time to figure out all of the changes that
+would be necessary to make it equally accessible on a tablet and phone.
+One more important item…the website was set to back up daily to my personal google storage. This is done through
+a plugin entitled UpdraftPlus – Backup/Restore. I have deactivated this plugin. Backing up the site is very
+important – both in case a change is made that you want to undo, and in case something goes wrong with the
+website after plugin updates. Please change the location for backups to be stored before reactivating UpdraftPlus.
+WordPress and Elementor certainly had a pretty steep learning curve, but I was able to figure everything out by
+searching for answers on google, and using the built-in help menus.
+Good luck with all of this – it requires time and knowledge, and, while I got everything up and running, I could not
+manage it on a regular basis as it should be.
+Larry
+From: slkunitz@aol.com <slkunitz@aol.com>
+Sent: Friday, December 13, 2024 9:23 AM
+To: Lawrence Blind <lblind@nmschoolofmusic.com>
+Subject: PMTNM 2025
+Larry,
+No one seems to be checking or responding to emails as my Dec 9 re approval for Eastern NM Local association has
+not had one response!!! Will get into online membership and organization activities in January. Chip has the job as
+webmaster... he is anxious to get involved and that is a good job.
+Could you send him the particulars of ownership of site, etc?? whatever he needs?
+Have a safe and beautiful month of family and holidays!
+Sharon
+On Thu, Jan 9, 2025 at 9:01 PM Jeanne Grealish <figaro1226@gmail.com> wrote:
+The handbook has always been available to every member … years ago as a hard copy; since then, on line at the
+website.
+J
+Sent from my iPhone
+On Jan 9, 2025, at 20:58, Jeanne Grealish <figaro1226@gmail.com> wrote:
+﻿ Handbook is on line.
+Why has Larry’s beautiful website been changed? Where are the photos?
+J
+Sent from my iPhone
+On Jan 9, 2025, at 20:03, Willis Glen Miller, III <wgmilleriii@gmail.com> wrote:
+﻿
+Hi Jeanne, do you have a copy of the handbook? It would be great if everybody had access
+to it! So sad that it has been unavailable for years! Would you send me a copy? I'll add it to
+the website. I know that would help a lot. It would be great if all had a copy rather than email
+going out referencing something that only a few people have had access to. How confusing!
+Also, what is this misinformed contact you to referenced? Please clarify. Thanks, Chip
+On Thu, Jan 9, 2025 at 5:07 PM Jeanne Grealish <figaro1226@gmail.com> wrote:
+Chip, below in red I’ve tried to address your concerns. If I’ve missed anything, please let
+me know.
+And, here are a few thoughts to be considered … or not:
+According to the official job descriptions found in the PMTNM Bylaws and Handbook we
+each have our own tasks to perform. When we adhere to these things run smoothly. When there is
+too much overlapping or unintentional assumption of tasks it can become annoying and lead
+to much confusion and/or false information. End result: annoyed folks become reluctant to assume
+chairmanships or other positions in the organization, a result PMTNM cannot afford. Irrelevant
+emails or calls simply never help.
+Similarly, the national MTNA office staff has plenty to do without misinformed contact or non-
+relevant local concerns expressed by individuals; MTNA deals with concerns at a national level.
+It's a small staff handling national governance via administrative staff and national Board; the
+Summit for state presidents; national financial and membership records; all publications; and every
+detail of the national conference: planning, preparation, registrations, competitions, etc.
+Since you are new to PMTNM perhaps you are not aware of the above facts. We all appreciate
+your enthusiasm and desire to help improve the organization. Serving in any office is usually
+a “learn as you go” process; certainly holding my office has been so over the years and continues
+to be… 🙂
+All best,
+Jeanne
+On Jan 8, 2025, at 11:24 AM, Willis Glen Miller, III <wgmilleriii@gmail.com>
+wrote:
+Thank you, Jeanne. Where is it? The current membership list is
+kept by the Sec.-Treas. and shared with anyone who
+needs it for a legitimate reason; it is for internal use.
+Or are you simply verifying that the attachment is
+accurate as of today?Your attachment is terribly out of
+date. Our membership list is current and in sync with
+MTNA's as of December 31, 2024.
+Do you have an email from MTNA with the current
+membership or are you confirming that the MTNA does
+not distribute this information to state leadership?
+Monthly updates are sent onlyto me and the President.
+Is MTNA aware of our current leadership? YES!!
+Please clarify and provide more information. Thank you,
+Jeanne!
+On Tue, Jan 7, 2025 at 11:11 PM Jeanne Grealish <figaro1226@gmail.com> wrote:
+The membership list is up to date and is kept so.
+J
+Sent from my iPhone
+On Jan 7, 2025, at 14:16, Willis Glen Miller, III
+<wgmilleriii@gmail.com> wrote:
+﻿
+Hi Sharon,
+Here is data from the old site. I also shared a good sheet with you
+, https://docs.google.com/spreadsheets/d/1NEz0q2wEy-
+3DIOU0S6uvOAuP_swEZnx-JM7Eabnibts/edit?usp=sharing .
+Would it be useful for us to be able to share documents like this in
+Google Drive ?
+I think the need to reach out to national to get the updated list
+though. This is a start but it has not been updated for a long time
+as I understand. Jeanne can you do that?
+On Mon, Jan 6, 2025 at 10:33 AM slkunitz@aol.com <slk
+unitz@aol.com> wrote:
+Chip,
+Do you have the listing for a mass mailing to
+the membership? I want to send them a New
+Year's greeting and plans for the year.

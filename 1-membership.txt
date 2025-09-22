@@ -1,0 +1,37 @@
+Chip Miller — Requests for Membership List
+
+- 2025-01-06 10:33 — Subject: "Membership mailing" — From: Sharon to Chip
+  Quote: "Do you have the listing for a mass mailing to the membership? I want to send them a New Year's greeting and plans for the year."
+  Source: EmailLog - Sheet1.tsv
+
+- 2025-01-07 14:16 — Subject: "Re: Membership mailing" — From: Chip to Sharon; Cc: Jeanne
+  Quote: "Here is data from the old site. I also shared a google sheet with you ... Would it be useful for us to be able to share documents like this in Google Drive? I think the need to reach out to national to get the updated list though. This is a start but it has not been updated for a long time as I understand. Jeanne can you do that?"
+  Source: EmailLog - Sheet1.tsv (and reflected verbatim in handbook2.txt lines 186–189)
+
+- 2025-01-07 23:11 — Subject: "Re: Membership mailing" — From: Jeanne to Chip
+  Quote: "The membership list is up to date and is kept so."
+  Source: EmailLog - Sheet1.tsv
+
+- 2025-01-08 11:24 — Subject: "Re: Membership mailing" — From: Chip to Jeanne
+  Quote: "Thank you, Jeanne. Where is it? The current membership list is kept by the Sec.-Treas. and shared with anyone who needs it for a legitimate reason; it is for internal use. Or are you simply verifying that the attachment is accurate as of today? Your attachment is terribly out of date. Our membership list is current and in sync with MTNA's as of December 31, 2024. Do you have an email from MTNA with the current membership or are you confirming that the MTNA does not distribute this information to state leadership? Monthly updates are sent only to me and the President."
+  Source: handbook2.txt lines 165–171 (quoted email text).
+
+Notes
+- Sequence shows Chip proposing to obtain an updated list (via MTNA) and asking Jeanne for either the current list or confirmation of MTNA distribution. Jeanne asserts the list is up to date but does not provide a file location in these excerpts.
+
+
+Disappointments
+- Meeting exchange (audio transcript)
+  • Prompt: "I've emailed you that you're in charge of the foundation and membership. Do you have a membership report?" — Sharon
+  • Chip: "I would love to get a membership list... Can I get a membership list?"
+  • Jeanne: "You should have a membership list... The membership list is supposed to be online."
+  • Sharon: "Well, we all have membership lists. I do."  Janna: "No."
+  Source: 01-membership.txt (meeting transcript)
+
+- Prior email context
+  • 2025-01-07 — Chip seeks an updated list and proposes obtaining from MTNA; asks Jeanne to assist.
+  • 2025-01-08 — Chip: "Thank you, Jeanne. Where is it? ... Monthly updates are sent only to me and the President."
+  Sources: EmailLog - Sheet1.tsv; handbook2.txt lines 165–171
+
+Summary
+- Chip was tasked to provide a membership report but was not provided a definitive membership list despite repeated requests and inquiries about where to obtain it.

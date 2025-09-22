@@ -1,0 +1,94 @@
+Disappointments — Sourced summary with quotes and references
+
+Note: Quotes preserve original spelling and punctuation. Timestamps are included where available. File references point to sources in this repository.
+
+1) Handbook access and availability
+- Claim (disappointments.txt L2–L6): Multiple requests; had to drive across the state to obtain a copy. Jeanne insisted the handbook was on the website.
+- Evidence — Email exchanges and notes:
+  • 2025-01-09 — Jeanne → Chip: "Handbook is on line." and "The handbook has always been available to every member … years ago as a hard copy; since then, on line at the website." (handbook2.txt L131–141)
+  • 2025-01-09 — Chip → Jeanne: "maybe you weren't aware that the handbook hasn't been online for [two years]?" (handbook2.txt L1–3)
+  • 2024-12-13 — Larry → Sharon (fwd to Chip): "The other item that was never added to the website is the Handbook … The Student Activities section of the Handbook is online…" (handbook2.txt L81–83)
+  • 2025-02-26 — Chip → Janna: "I saw Ferrel over the weekend and he gave me a copy of the handbook… they scanned it… to 2 big pdfs…" (janna.txt L22–27)
+
+2) Membership list — requests and access
+- Claim (disappointments.txt L8–L12): Asked for new list; not received until July; asked to report without data.
+- Evidence — Emails and meeting:
+  • 2025-01-06 — Sharon → Chip: "Do you have the listing for a mass mailing to the membership?" (EmailLog - Sheet1.tsv; 01-membership.txt L3–5 summarized)
+  • 2025-01-07 — Chip → Sharon; Cc Jeanne: "Here is data from the old site… need to reach out to national… Jeanne can you do that?" (01-membership.txt L7–9)
+  • 2025-01-07 — Jeanne → Chip: "The membership list is up to date and is kept so." (01-membership.txt L11–13)
+  • Meeting exchange: Chip: "Can I get a membership list?" Jeanne: "The membership list is supposed to be online." Sharon: "Well, we all have membership lists. I do." Janna: "No." (01-membership.txt L18–46)
+
+3) Board report requested without information
+- Claim (disappointments.txt L11): Asked to give report without receiving membership data.
+- Evidence — Meeting excerpt: Sharon: "Supposed to have a foundation report… Do you have a membership report?" Chip: "I would love to get a membership list…" (01-membership.txt L18–27)
+
+4) Nominations — attempts to divert or delay Terri’s nomination
+- Claim (disappointments.txt L14–L16): Jeanne tried to sabotage/stop nomination, insisting it was last year.
+- Evidence — Email and board transcript:
+  • 2024-10-10 — Jeanne → Chip: "Thanks for the documents and nomination of TERRI RECK as 2025 Teacher of the Year (TOY). She’s certainly a worthy candidate." (nomations-emails.txt L14–22)
+  • Meeting: Jeanne: "Well, that was last year." Chip: "It says 2025…" (nominations-boardmeeting.txt L26–33)
+  • Meeting: Jeanne: "Don't you think we all have to look at the recommendation and then vote? … We can vote by email. That's how we did last year." (nominations-boardmeeting.txt L86–91)
+  • Meeting: Jeanne: "I believe the reason Teri Resch was not nominated last time was she has not contributed very much to community service." (nominations-boardmeeting.txt L43)
+  • Cross-ref summary: See 3-nominations.txt (created) for fuller chronology.
+
+5) Salary/compensation — awareness and governance
+- Claim (disappointments.txt L18–L19): Who approved salary? Why not in handbook?
+- Evidence — Sharon email and handbook policy:
+  • Sharon → Chip: "She also receives financial compensation for her position." (handbook/01-compensation-email.txt L7)
+  • Handbook (Non-profit status): "[The Association] shall be authorized and empowered to pay reasonable compensation for services rendered…" (handbook_full.txt ~L773–776, 2983–2987, 3587–3590)
+  • Note: The handbook outlines authority to compensate but does not list specific approval records in the excerpts reviewed.
+
+6) Budget planning committee — VP role and meetings
+- Claim (disappointments.txt L21–L22): VP is on the committee; no meetings.
+- Evidence — Email confirmation of role:
+  • Budget note (copied from email): "The VP is on the Budget planning committee which does its work in August and has no function beyond that." (budget.txt L19)
+  • Handbook — Treasurer/Board duties: "Presents financial reports… Serves on the Budget Committee annually… Presents the budget to the Executive Board…" (handbook_full.txt L869–880, 989–993)
+  • Note: Evidence shows VP is on budget committee (email) and committee exists; separate proof of "no meetings" not found in repository.
+
+7) Financial information — requests and reporting
+- Claim (disappointments.txt L24): Requested financials and never got them; incomplete spring report.
+- Evidence — Email request and handbook duty:
+  • Chip → Jeanne (budget.txt L19): "Please send me the full financial details per handbook guidelines. … Current financial reports are shared with all Board members and the membership. Review will take place at the April Board meeting."
+  • Handbook: "Presents financial reports at the Executive Board Meetings… The records should be open to any member at all times." (handbook_full.txt L869–879)
+  • Note: Repository contains the request and handbook standards; no attached financial reports here to confirm delivery or completeness.
+
+8) Spring board meeting — minutes distribution
+- Claim (disappointments.txt L26): Notes supposed to be sent out; there are no notes.
+- Evidence — Handbook duty:
+  • "Sends the minutes of the Conference to the President for corrections and approval. After making the corrections… sends a typed copy of the minutes of the Conference to the Editor of the PMTNM NEWSLETTER for the January edition. Files the minutes of the Conference and Board meetings…" (handbook_full.txt L865–867)
+  • Note: No minutes files are present in repo to verify distribution status.
+
+From the handbook:
+c. The Executive Secretary-Treasurer shall be responsible for keeping minutes of all business meetings of the Association and meetings of the Executive Committee and Board of Directors, sends copies of the minutes of the meetings to the members within 60 days after the meetings, and sees that those minutes are in legal form and properly preserved in a permanent Minute Book, and such other duties as are assigned by the Board of Directors.
+
+
+
+9) Foundation — "boring" characterization
+- Claim (disappointments.txt L28–L29): Jeanne’s response was that it is "boring".
+- Evidence — Not found verbatim in repository.
+  • Search produced no direct "boring" quote. (no match)
+  • Related context: Meeting prompt about foundation report (01-membership.txt L18–21), and foundation duties exist in handbook (handbook_full.txt L599–614, 1290–1293).
+
+ ---------- Forwarded message ---------
+ From: Jeanne Grealish <figaro1226@gmail.com>
+ Date: Thu, Sep 11, 2025 at 6:29 PM
+ Subject: Re: PMTNM | MTNA | The Foundation
+ To: <admin@pmtnm.org>
+ 
+ 
+ Boring and irrelevant to most of us.
+ 
+ Sent from my iPhone
+ 
+ On Sep 11, 2025, at 16:06, Chip Miller <admin@pmtnm.org> wrote:
+ 
+ ﻿
+ When Is It Time To Give?
+ [image: pmtnm_logo_transparent image]
+ MTNA Foundation: When Is It Time to Give?
+ [image: mountain image]
+ 
+ Dear PMTNM Colleagues,
+ 
+ 
+ A few weeks ago, I attended a nati

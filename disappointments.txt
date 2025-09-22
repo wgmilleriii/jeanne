@@ -1,0 +1,83 @@
+Hello Brian,
+
+I have organized my disappointments of Jeanne Grealish's inability to carry out the functions of 
+the office of "Executive Treasurer-Secretery" for the "Professional Music Teachers of New Mexico."
+
+
+
+
+1) Handbook access
+- Claim: Multiple requests for the PMTNM Handbook; ultimately obtained from Ferrell.
+- Evidence:
+  • 2025-01-09 — Jeanne: "Handbook is on line." and "The handbook has always been available to every member … since then, on line at the website." [Email: "Answers to questions", 2025-01-09]
+  • 2024-12-13 — Larry: "The other item that was never added to the website is the Handbook… The Student Activities section of the Handbook is online…" [Email: "RE: PMTNM 2025", 2024-12-13]
+  • 2025-02-26 — "I saw Ferrel over the weekend and he gave me a copy of the handbook… they scanned it… to 2 big pdfs…" [Email: "PEP issue", 2025-02-26]
+- Context and contradiction:
+  • Jeanne’s assertion that the handbook was online conflicts with Larry’s statement that the complete handbook was never added (only Student Activities was online). [Email: "RE: PMTNM 2025", 2024-12-13; Email: "Answers to questions", 2025-01-09]
+- Timeline of requests and resolution:
+  • 2025-01-09 — Chip requests the handbook for posting; Jeanne replies it is online. [Email: "Answers to questions", 2025-01-09]
+  • 2025-01-09 — Chip replies that the handbook hasn’t been online for years. [Email: "Re: Answers to questions", 2025-01-09]
+  • 2025-02-22 — Chip to Janna: "I really wish that I had a copy of the handbook… I have never seen one despite my requests." [Email: "PEP issue", 2025-02-22]
+  • 2025-02-26 — Chip obtains a physical copy from Ferrel and scans it. [Email: "PEP issue", 2025-02-26]
+  • 2025-07-13 — Jeanne sends handbook materials (enabling full publication). [Email: "PMTNM HANDBOOK", 2025-07-13]
+- Impact:
+  • Lack of access delayed content accuracy and role clarity; Chip could not reference official duties when asked to perform tasks.
+- Policy reference (what should happen):
+  • "One copy of the PMTNM HANDBOOK is furnished to each new member of PMTNM. Revisions and additions will be sent to members periodically." [handbook_full.txt L17–18]
+
+2) Website content — handbook status contradiction
+- Claim: Jeanne said the handbook was online; Larry said it was never added (except Student Activities).
+- Evidence: See item 1 quotes above. [Email: "RE: PMTNM 2025", 2024-12-13; Email: "Answers to questions", 2025-01-09]
+
+3) Membership list access
+- Claim: Provided old list; requested current list; did not receive in timely fashion; asked to report without data.
+- Evidence:
+  • 2025-01-07 — Jeanne: "The membership list is up to date and is kept so." [Email: "Re: Membership mailing", 2025-01-07]
+  • Meeting: Chip: "Can I get a membership list?" Jeanne: "The membership list is supposed to be online." Sharon: "Well, we all have membership lists. I do." Janna: "No." [01-membership.txt L18–46]
+  • 2025-01-07 — Chip: "Here is data from the old site… need to reach out to national… Jeanne can you do that?" [Email: "Re: Membership mailing", 2025-01-07]
+
+4) Asked to give report without information
+- Claim: Asked for membership/foundation report without receiving data.
+- Evidence:
+  • Sharon: "Supposed to have a foundation report… Do you have a membership report?" Chip: "I would love to get a membership list…" [01-membership.txt L18–27]
+
+5) Nominations — process objections and delay attempts - 3 times insisting that the nomination was for the prior year
+- Claim: Jeanne questioned timing and process re: Terri’s 2025 TOY nomination.
+- Evidence:
+  • 2024-10-10 — Jeanne: "Thanks for the documents and nomination of TERRI RECK as 2025 Teacher of the Year (TOY). She’s certainly a worthy candidate." [Email: Oct 10, 2024 (subject not captured in log)]
+  • Meeting: Jeanne: "Well, that was last year." Chip: "It says 2025…" [nominations-boardmeeting.txt L26–33]
+  • Meeting: "Don't you think we all have to look at the recommendation and then vote? … We can vote by email. That's how we did last year." [nominations-boardmeeting.txt L86–91]
+  • Meeting: "I believe the reason Teri Resch was not nominated last time was she has not contributed very much to community service." [nominations-boardmeeting.txt L43]
+  • For full chronology, see 3-nominations.txt (already created).
+
+6) Salary/compensation transparency
+- Claim: Jeanne receives financial compensation; question of approval and documentation.
+- Evidence:
+  • Sharon: "She also receives financial compensation for her position." [Email: "thank you and requests", 2025-04-19]
+  • Policy: Non-profit bylaws allow "reasonable compensation for services rendered." [handbook_full.txt ~L773–776; 2983–2986; 3587–3590]
+
+7) Budget planning committee and VP role
+- Claim: VP is on the budget committee; no meetings held.
+- Evidence:
+  • "The VP is on the Budget planning committee which does its work in August and has no function beyond that." [budget.txt L19]
+  • Treasurer/Board duties reference budget committee workflow. [handbook_full.txt L869–880, L989–993]
+  • Note: No repository record confirming "no meetings" beyond the above.
+
+8) Financial information and reporting
+- Claim: Requested financials, did not receive; spring report incomplete.
+- Evidence:
+  • Request: "Please send me the full financial details per handbook guidelines… Current financial reports are shared with all Board members… Review will take place at the April Board meeting." [Email: Mar 17, 2025 (subject not captured)]
+  • Handbook duties: "Presents financial reports at the Executive Board Meetings… The records should be open to any member at all times." [handbook_full.txt L869–879]
+  • Note: No financial report attachments present in the repo to confirm delivery or completeness.
+
+9) Foundation characterization — "boring"
+- Claim: Jeanne replied to a foundation email: "Boring and irrelevant to most of us."
+- Evidence:
+  • Email: "Re: PMTNM | MTNA | The Foundation", 2025-09-11 18:29 — Jeanne → admin@pmtnm.org: "Boring and irrelevant to most of us." [EmailLog - Sheet1.tsv L4836–L4845]
+  • Related: Handbook sections describe the Joyce Walker Student Foundation duties and awards. [handbook_full.txt L599–614, L1290–1293]
+
+Cross-references
+- Detailed nominations timeline: 3-nominations.txt
+- Expanded sourcing for all items: disappointments-sourced.txt
+
+

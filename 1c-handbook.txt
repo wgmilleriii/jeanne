@@ -1,0 +1,53 @@
+Chip Handbook — Attempts, Frustrations, Denied Access, and Finally Obtaining a Copy from Ferrell
+
+Timeline and Evidence
+
+1) Initial requests and attempts (January 2025)
+- 2025-01-09 20:03:41 — Email: "Re: Answers to questions" — From: Chip → Jeanne; Cc: Sharon
+  Quote: "Hi Jeanne, do you have a copy of the handbook? It would be great if everybody had access to it! ... Would you send me a copy? I'll add it to the website."
+  Source: EmailLog - Sheet1.tsv
+
+- 2025-01-09 20:57:57 and 21:01:05 — Email(s): Jeanne → Chip
+  Quotes: "Handbook is on line." and "The handbook has always been available to every member … years ago as a hard copy; since then, on line at the website."
+  Source: EmailLog - Sheet1.tsv; also echoed in handbook2.txt lines 131–141
+
+- 2025-01-09 22:30:35 — Email: Chip → Jeanne
+  Quote (excerpt): "maybe you weren't aware that the handbook hasn't been online for [two years]?"
+  Source: EmailLog - Sheet1.tsv (screenshot also referenced in thread)
+
+2) Ongoing frustration and denied access (February–March 2025)
+- 2025-02-22 — PEP issue thread — Chip → Janna
+  Quote: "I really wish that I had a copy of the handbook. I’ve been a member for a couple of years and I have never seen one despite my requests."
+  Source: janna.txt
+
+- 2025-03-12 09:17:40 — Email: "handbook and status" — Chip → Sharon
+  Action: Follow-up request to obtain handbook/status.
+  Source: EmailLog - Sheet1.tsv
+
+- 2024-12-13 11:48 MST — Background statement (preceding events) — Larry → Sharon (forwarded to Chip)
+  Quote: "The other item that was never added to the website is the Handbook – primarily because the existing complete Handbook is horribly out of date. ... The Student Activities section of the Handbook is online as it has undergone edits as needed through the years."
+  Source: handbook2.txt lines ~81–83
+
+Interpretation: Jeanne’s claim that the handbook was online conflicted with Larry’s statement that the complete handbook was never added to the site, aligning with Chip’s report of not finding it online.
+
+3) Finally obtaining a copy from Ferrell and scanning (late February 2025)
+- 2025-02-26 — PEP issue thread — Chip → Janna
+  Quote: "I saw Ferrel over the weekend and he gave me a copy of the handbook, it might be an older version but at least it is a starting point. I took it to the music school and they scanned it in liketysplit, to 2 big pdfs, but I should be able to extract text."
+  Quote (continued): "I'll check in again tonight with an update on pdf to text conversion, I think I can import the handbook to text. At least I will be able to get to a 'reset text' system with you."
+  Source: janna.txt
+
+4) Subsequent official delivery enabling publication (July 2025)
+- 2025-07-13 15:56 — Email: "PMTNM HANDBOOK" — From: Jeanne → Chip
+  Action: Jeanne sent handbook materials (multiple section attachments: TOC, Sections I–XIV, Bylaws, etc.).
+  Source: EmailLog - Sheet1.tsv
+
+Summary
+- Attempts: Chip began requesting the handbook on Jan 9, 2025 and continued via late Feb and Mar follow-ups.
+- Frustrations/Denied access: Despite Jeanne’s assurances that the handbook was online, Chip and Larry’s statements indicate the complete handbook was not actually online, leaving Chip without access for months.
+- Obtaining from Ferrell: Chip physically obtained a copy from Ferrell the weekend before Feb 26, 2025, had it scanned to PDFs, and began preparing text extraction for web publication.
+- Final resolution: On July 13, 2025 Jeanne sent full handbook materials, enabling complete posting and member access.
+
+Cited Sources
+- EmailLog - Sheet1.tsv (timestamps and subjects quoted above)
+- janna.txt (PEP issue thread excerpts on 2025-02-22 and 2025-02-26)
+- handbook2.txt (Larry’s Dec 13, 2024 statement; Jeanne’s Jan 9, 2025 statements)
