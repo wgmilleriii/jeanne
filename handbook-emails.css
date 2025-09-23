@@ -16,3 +16,22 @@ h1 { font-size: 20px; margin: 0 0 8px; }
 .hdr { font-weight: 500; font-size: 12px; color: #777; margin-bottom: 6px; }
 .sub { color: #222; font-size: 14px; font-weight: 700; margin-bottom: 8px; }
 .body { white-space: pre-wrap; word-wrap: break-word; margin: 0; }
+
+mark {
+    background: #fff7a1;
+    padding: 0 3px;
+    padding-top: 0px;
+    padding-right: 3px;
+    padding-bottom: 0px;
+    padding-left: 3px;
+}
+
+code {
+  display: block;              /* force line break before and after */
+  background: #f7f7f7;         /* consistent background */
+  font-size: 0.9em;
+  padding: 8px 10px;           /* comfortable padding */
+  margin: 8px 0;               /* spacing around block */
+  border-left: 3px solid #999; /* thin darker grey left border */
+  white-space: pre-wrap;       /* preserve formatting, allow wrapping */
+}
